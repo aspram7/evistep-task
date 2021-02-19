@@ -1,0 +1,434 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebWork Tracker | Time Tracking with Screenshots</title>
+    <link rel="shortcut icon" type="image/ico" href="./images/logo.svg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
+    <script src="https://www.webwork-tracker.com/js/lottie.js"></script>
+    <script src="https://www.webwork-tracker.com/js/wow.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav justify-content-between my-2 nav-header">
+          <div class="nav-logo">
+            <a class="d-flex align-items-center" href="#">
+              <img class="nav-image" src="./images/logo.svg" alt="logo" />
+              <h2 class="text-logo ms-1">WebWork <span class="text-name">TimeTracker</span></h2>
+            </a>
+          </div>
+          <div class="nav-form d-flex align-items-center">
+            <div class="nav-form-start-free-trial"><a href="#">start free trial</a></div>
+            <div class="nav-form-sign-in"><a href="#">sign in</a></div>
+            <div class="nav-menu-mobile d-flex align-items-center">
+              <div class="menu-hamburger">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+              <ul class="menu-hamburger-content">
+                <li><a href="#">home</a></li>
+                <li><a href="#who-uses-webwork">who uses webWork</a></li>
+                <li><a href="#time-tracking">time tracking</a></li>
+                <li><a href="#features">features</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="section-navbar">
+      <div class="container">
+        <nav class="nav justify-content-between py-2">
+          <div class="nav-logo">
+            <a class="d-flex align-items-center" href="#">
+              <h2 class="text-logo">WebWork <span class="text-name text-white">TimeTracker</span></h2>
+            </a>
+          </div>
+          <div class="nav-menu d-flex align-items-center">
+            <ul class="d-flex">
+              <li><a href="#">home</a></li>
+              <li><a href="#who-uses-webwork">who uses webWork</a></li>
+              <li><a href="#time-tracking">time tracking</a></li>
+              <li><a href="#features">features</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section class="section-home">
+      <div class="container">
+        <div class="d-flex section-home-content">
+          <div class="section-home-text">
+            <h2 class="headers">Lorem ipsum dolor sit amet.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime pariatur adipisci aperiam quas esse dolores quod cum facere
+              sint exercitationem voluptates eos, nobis blanditiis. Voluptatum, nisi tempore beatae ullam voluptas earum qui optio velit
+              reprehenderit dicta modi dolores fugiat commodi placeat ab magni quae temporibus repellat accusantium unde, sint quaerat minus
+              veniam nam. Corporis magnam nostrum inventore consequuntur, impedit enim cum odio quaerat veritatis, pariatur corrupti placeat
+              quia tempora dolorum quod quas unde, voluptatibus quo! Obcaecati, in.
+            </p>
+            <div class="states">
+              <div class="users"><b id="users_count"></b><b>K+</b></div>
+              <div class="time-tracked"><b id="projects_count"></b><b>K+</b></div>
+            </div>
+            <div class="section-button">
+              <a href="">
+                <button>start free trial</button>
+              </a>
+            </div>
+          </div>
+          <div class="section-home-animation">
+            <div id="lottie" class="wow zoomInDown fast"></div>
+            <div class="animation-timer d-flex justify-content-center">
+              <div class="minutes"><span class="total_minutes" id="total_minutes1"></span></div>
+              <div class="minutes"><span class="total_minutes" id="total_minutes2"></span></div>
+              <div class="minutes"><span class="total_minutes" id="total_minutes3"></span><span class="minut-text">min</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-content-type" id="who-uses-webwork">
+      <div class="container">
+        <div class="section-content-users">
+          <h2 class="headers">who uses webwork</h2>
+          <div class="section-content-users-diagram">
+            <img src="./images/Circle_diagram1.png" alt="" />
+            <div class="section-content-users-link">
+              <a href="#">
+                <div class="section-content-users-item section-content-users-freelancers">
+                  <h5>freelancers</h5>
+                </div>
+              </a>
+            </div>
+            <div class="section-content-users-link">
+              <a href="#">
+                <div class="section-content-users-item section-content-users-teams">
+                  <h5>teams</h5>
+                </div>
+              </a>
+            </div>
+            <div class="section-content-users-link">
+              <a href="#">
+                <div class="section-content-users-item section-content-users-employees">
+                  <h5>employees</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-integration" id="time-tracking">
+      <div class="container">
+        <div class="section-integration-general">
+          <h2 class="headers">WebWork Tracker Integrations</h2>
+          <div class="section-integration-companies">
+            <div class="section-integration-companies-logo">
+              <div class="starbucks">
+                <img src="./images/1.jpg" alt="" />
+              </div>
+              <div class="wikipedia">
+                <img src="./images/2.jpg" alt="" />
+              </div>
+              <div class="google">
+                <img src="./images/3.jpg" alt="" />
+              </div>
+              <div class="london">
+                <img src="./images/4.jpg" alt="" />
+              </div>
+              <div class="pepsi">
+                <img src="./images/5.jpg" alt="" />
+              </div>
+              <div class="eleven">
+                <img src="./images/6.jpg" alt="" />
+              </div>
+            </div>
+            <div class="section-integration-text-button">
+              <div class="section-integration-text">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem deserunt doloremque dolorem. Voluptatum maiores veniam
+                  adipisci distinctio ducimus! Perferendis, laudantium expedita molestias esse doloremque, libero voluptates asperiores rem
+                  exercitationem reiciendis voluptatem beatae delectus dolores perspiciatis alias et! Soluta cum dolores sequi distinctio
+                  quod minus, deserunt quos non ducimus! Odio, excepturi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+                  deserunt doloremque dolorem. Voluptatum maiores veniam adipisci distinctio ducimus! Perferendis, laudantium expedita
+                  molestias esse doloremque, libero voluptates asperiores rem exercitationem reiciendis voluptatem beatae delectus dolores
+                  perspiciatis alias et! Soluta cum dolores sequi distinctio quod minus, deserunt quos non ducimus! Odio, excepturi?
+                </p>
+              </div>
+              <div class="section-button">
+                <a href="">
+                  <button>learn more</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-features" id="features">
+      <div class="container">
+        <div class="section-features-general">
+          <h2 class="headers">features</h2>
+          <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit</h5>
+          <div class="section-features-block">
+            <div class="section-features-block-item">
+              <h5>Lorem, ipsum.</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div>
+                <a href="#">
+                  <img src="./images/icons/time-tracker.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="section-features-block-item">
+              <h5>Lorem, ipsum.</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div>
+                <a href="#">
+                  <img src="./images/icons/screenshot.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="section-features-block-item">
+              <h5>Lorem, ipsum.</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div>
+                <a href="#">
+                  <img src="./images/icons/activity.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="section-features-block-item">
+              <h5>Lorem, ipsum.</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div>
+                <a href="#">
+                  <img src="./images/icons/user.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="section-features-block-item">
+              <h5>Lorem, ipsum.</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div>
+                <a href="#">
+                  <img src="./images/icons/reports.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="section-features-block-item">
+              <h5>Lorem, ipsum.</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div>
+                <a href="#">
+                  <img src="./images/icons/invoice.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="section-features-block-item">
+              <h5>Lorem, ipsum.</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div>
+                <a href="#">
+                  <img src="./images/icons/save-time.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="section-features-block-item">
+              <h5>Lorem, ipsum.</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div>
+                <a href="#">
+                  <img src="./images/icons/web-development.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="section-features-block-item">
+              <h5>Lorem, ipsum.</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div>
+                <a href="#">
+                  <img src="./images/icons/bill.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="section-features-block-item">
+              <h5>Lorem, ipsum.</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div>
+                <a href="#">
+                  <img src="./images/icons/activity-description.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="section-features-block-item">
+              <h5>Lorem, ipsum.</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div>
+                <a href="#">
+                  <img src="./images/icons/support.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="section-features-block-item">
+              <h5>Lorem, ipsum.</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div>
+                <a href="#">
+                  <img src="./images/icons/tasks.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="section-button">
+            <a href="">
+              <button>try it for tree</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section-footer">
+        <div class="container">
+          <div class="footer-top">
+            <div class="footer-top-blocks">
+              <div class="footer-top-block">
+                <h4>PRODUCT</h4>
+                <ul>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                </ul>
+              </div>
+              <div class="footer-top-block">
+                <h4>PRODUCT</h4>
+                <ul>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                </ul>
+              </div>
+              <div class="footer-top-block">
+                <h4>PRODUCT</h4>
+                <ul>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                </ul>
+              </div>
+              <div class="footer-top-block">
+                <h4>PRODUCT</h4>
+                <ul>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                </ul>
+              </div>
+              <div class="footer-top-block">
+                <h4>PRODUCT</h4>
+                <ul>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                  <li><a href="">Lorem ipsum</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-about">
+              <div class="footer-about-nav">
+                <div class="nav-logo">
+                  <a class="d-flex align-items-center" href="#">
+                    <h2 class="text-logo">WebWork <span class="text-name text-white">TimeTracker</span></h2>
+                  </a>
+                </div>
+                <div class="footer-nav">
+                  <div class="nav-menu footer-nav-menu d-flex align-items-center">
+                    <ul class="d-flex">
+                      <li><a href="#">home</a></li>
+                      <li><a href="#">features</a></li>
+                      <li><a href="#">time tracking</a></li>
+                      <li><a href="#">price</a></li>
+                      <li><a href="#">download</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-media">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img src="./images/media-icons/facebook.png" alt="Facebook" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./images/media-icons/twitter.png" alt="Twitter" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./images/media-icons/youtube.png" alt="Youtube" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./images/media-icons/vimeo.png" alt="Vimeo" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./images/media-icons/instagram.png" alt="Instagram" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-copyright-logo">
+              <div class="nav-logo">
+                <a class="d-flex align-items-center" href="#">
+                  <h2 class="text-logo footer-text-logo">WebWork</h2>
+                  <img class="footer-copyright" src="./images/icon-copy.svg" alt="" />
+                  <h6>2021</h6>
+                </a>
+              </div>
+            </div>
+            <div class="footer-address">
+              <p>530 Divisadero St PMB 848 San Francisco, CA 94117</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./lottie.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
